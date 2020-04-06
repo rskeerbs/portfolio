@@ -90,13 +90,14 @@ footer {
   padding-top: 130px;
   position: center;
   width: 960px;
+  
 }
 
 .main-section {
-  float: left;
   max-width: 960px;
   background: #ffffff;
   padding: 30px;
+  border-radius: 15px 50px 30px;
 }
 
 input[type=text], select {
@@ -122,5 +123,37 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #777777;
+}
+
+.project h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  border-radius: 5px;
+}
+
+.project {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.project img {
+  border: 0 none;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.project a {
+  padding: 10px;
 }
 
